@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ScreenUtil Auto Suffix",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-Command",
+        " $f='${file}'; $c = Get-Content $f -Raw; " +
+        " $c = $c -replace '(?<!\\\\.)\\\\b(width|left|right|horizontal|margin|padding)\\\\s*:\\\\s*(\\\\d+(?:\\\\.\\\\d+)?)', '$1: $2.w'; " +
+        " $c = $c -replace '(?<!\\\\.)\\\\b(height|top|bottom|vertical)\\\\s*:\\\\s*(\\\\d+(?:\\\\.\\\\d+)?)', '$1: $2.h'; " +
+        " $c = $c -replace '(?<!\\\\.)\\\\bfontSize\\\\s*:\\\\s*(\\\\d+(?:\\\\.\\\\d+)?)', 'fontSize: $1.sp'; " +
+        " $c = $c -replace '(?<!\\\\.)\\\\bradius\\\\s*:\\\\s*(\\\\d+(?:\\\\.\\\\d+)?)', 'radius: $1.r'; " +
+        " $c = $c -replace 'EdgeInsets\\\\.all\\\\((\\\\d+(?:\\\\.\\\\d+)?)\\\\)', 'EdgeInsets.all($1.w)'; " +
+        " $c = $c -replace 'horizontal:\\\\s*(\\\\d+(?:\\\\.\\\\d+)?)', 'horizontal: $1.w'; " +
+        " $c = $c -replace 'vertical:\\\\s*(\\\\d+(?:\\\\.\\\\d+)?)', 'vertical: $1.h'; " +
+        " Set-Content $f $c; "
+      ],
+      "presentation": { "reveal": "silent" },
+      "problemMatcher": []
+    }
+  ]
+}
