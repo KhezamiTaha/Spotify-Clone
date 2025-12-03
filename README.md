@@ -35,7 +35,7 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 ### Welcome & Mode Screens
 
-<div style="display:flex; gap:20px;">
+<div style="display:flex; gap:80px;">
 <img src="assets\images\screenshots\splash.png" alt="Splash Screen" width="180" />
 <img src="assets\images\screenshots\get_started.png" alt="get_started" width="180" />
 <img src="assets\images\screenshots\chose_mode.png" alt="Chose Mode" width="180" />
@@ -45,7 +45,7 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 ### Authentication Screens Bright
 
-<div style="display:flex; gap:20px;">
+<div style="display:flex; gap:80px;">
 <img src="assets\images\screenshots\enjoy_bright.png" alt="register_sign_in" width="180" />
 <img src="assets\images\screenshots\register_bright.png" alt="register Screen" width="180" />
 <img src="assets\images\screenshots\sign_in_bright.png" alt="Sign In" width="180" />
