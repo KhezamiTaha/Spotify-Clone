@@ -28,11 +28,28 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
       body: Stack(
         children: [
           // the background Image
-          Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(AppImages.welcomeGetStartedImage),
-                  fit: BoxFit.cover),
+          Positioned(
+            top: 30,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage(AppImages.welcomeGetStartedImage),
+                    fit: BoxFit.cover),
+              ),
+            ),
+          ),
+          // the logo in the top
+          Positioned(
+            top: 0,
+            right: 0,
+            left: 0,
+            bottom: 0,
+            child: Container(
+              decoration: BoxDecoration(
+                  color: Colors.black.withAlpha((255 * 0.7).toInt())),
             ),
           ),
           // the logo in the top
@@ -88,6 +105,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               ),
             ),
           ),
+
         ],
       ),
     );
