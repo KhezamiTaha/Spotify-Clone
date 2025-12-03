@@ -37,9 +37,9 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 <div style="display:flex; gap:80px;">
 <img src="assets\images\screenshots\splash.png" alt="Splash Screen" width="180" />
-  &nbsp;
+  &nbsp;&nbsp;
 <img src="assets\images\screenshots\get_started.png" alt="get_started" width="180" />
-  &nbsp;
+  &nbsp;&nbsp;
 <img src="assets\images\screenshots\chose_mode.png" alt="Chose Mode" width="180" />
 </div>
 
