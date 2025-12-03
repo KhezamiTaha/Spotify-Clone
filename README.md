@@ -49,7 +49,9 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 <div style="display:flex; gap:80px;">
 <img src="assets\images\screenshots\enjoy_bright.png" alt="register_sign_in" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\register_bright.png" alt="register Screen" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\sign_in_bright.png" alt="Sign In" width="180" />
 </div>
 
@@ -59,7 +61,9 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 <div style="display:flex; gap:20px;">
 <img src="assets\images\screenshots\enjoy_dark.png" alt="register_sign_in" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\register_dark.png" alt="register Screen" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\sign_in_dark.png" alt="Sign In" width="180" />
 </div>
 
@@ -69,7 +73,9 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 <div style="display:flex; gap:20px;">
 <img src="assets\images\screenshots\home_bright.png" alt="Home Screen" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\player_bright.png" alt="Player Screen" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\profile_bright.png" alt="Profile Screen" width="180" />
 </div>
 
@@ -79,7 +85,9 @@ A feature-rich **Spotify clone** built with Flutter, showcasing modern app archi
 
 <div style="display:flex; gap:20px;">
 <img src="assets\images\screenshots\home_dark.png" alt="Home Screen" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\player_dark.png" alt="Player Screen" width="180" />
+  &nbsp;&nbsp;&nbsp;
 <img src="assets\images\screenshots\profile_dark.png" alt="Profile Screen" width="180" />
 </div>
 </div>
